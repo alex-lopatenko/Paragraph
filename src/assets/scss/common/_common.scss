@@ -1,0 +1,29 @@
+// Default Theme
+
+// titles
+@import 'title';
+
+// Contorls
+@import 'controls';
+
+// card
+@import 'card';
+
+// Link
+@import 'link';
+
+// Buttons
+@import 'buttons';
+
+// Navbar
+@import 'navbar';
+
+// Table
+@import 'table';
+
+
+//Pages
+@import '../pages/home.scss';
+@import '../pages/shop.scss';
+@import '../pages/library.scss';
+@import '../pages/user.scss';
