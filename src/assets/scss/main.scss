@@ -7,12 +7,15 @@ html {
   font-size: $mainFontSize;
   color: $mainFontColor;
   height: 100%;
+
   @media screen and (max-width: $desktopWidth) {
     font-size: 16px;
   }
+
   @media screen and (max-width: $tableWidth) {
     font-size: 15px;
   }
+
   @media screen and (max-width: $phoneWidth) {
     font-size: 14px;
   }
@@ -26,9 +29,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   margin: 0;
   padding: 0;
-  background-image: url(../images/app-bg.jpg);
+  background-image: url(../images/colored_body_top.png);
   background-repeat: no-repeat;
-  background-color: #171a21;
+  background-color: #c6d4df;
 }
 
 *,
@@ -64,17 +67,21 @@ li {
   padding: 0;
 }
 
-footer, // also footer if footer without section
+footer,
+// also footer if footer without section
 section,
 .section {
   position: relative;
   padding: 40px 0;
+
   @media screen and (max-width: $desktopWidth) {
     padding: 36px 0;
   }
+
   @media screen and (max-width: $desktopWidth) {
     padding: 28px 0;
   }
+
   @media screen and (max-width: $desktopWidth) {
     padding: 20px 0;
   }
@@ -102,18 +109,23 @@ section,
   margin: 0 auto;
   width: 100%;
   max-width: $lgDesktopWidth;
+
   @media screen and (max-width: $lgDesktopWidth) {
     padding: 0 16px;
   }
+
   @media screen and (max-width: $smDesktopWidth) {
     max-width: $tableWidth;
   }
+
   @media screen and (max-width: $tableWidth) {
     max-width: $smTableWidth;
   }
+
   @media screen and (max-width: $smTableWidth) {
     max-width: $phoneWidth;
   }
+
   @media screen and (max-width: $phoneWidth) {
     max-width: $smPhoneWidth;
   }
@@ -121,6 +133,7 @@ section,
 
 .view-sm {
   max-width: 700px;
+
   &.isCenter {
     margin-left: auto;
     margin-right: auto;

@@ -5,8 +5,8 @@
   right: 0;
   z-index: 99;
   padding: 20px 0;
-  background-color: rgba(119, 40, 10, 1);
-  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+  background-color: #171a21;
+  box-shadow: 0px 3px 10px rgba(127, 255, 0, 1);
 }
 
 .navbar-content {
@@ -29,6 +29,7 @@
 .navbar-item {
   margin-right: 30px;
   cursor: pointer;
+
   &:last-child {
     margin-right: 0;
   }
@@ -38,6 +39,7 @@
   display: block;
   transition: all 0.2s ease;
   color: #c4cbd8;
+
   // active link
   &.isActive,
   &.router-link-active,
